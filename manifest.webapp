@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "name": "Cow goes moo",
+  "subtitle": "Simple animal sounds application for my daughter",
+
+  "description": "Simple animal sounds application for my daughter.",
+  "type": "web",
+  "launch_path": "/index.html",
+  "icons": {
+    "54": "/icons/icon54.png",
+    "84": "/icons/icon84.png"
+  },
+  "developer": {
+    "name": "V3L",
+    "url": "https://www.v3l.cz"
+  }
+}

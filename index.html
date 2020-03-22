@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="rgb(106, 0, 128)" />
+    <title>Cow goes moo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .photo {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <img id="photo" class="photo" src="images/fox.jpg" /> 
+</body>
+
+<script>
+    images = [
+        "images/0.jpg",
+        "images/1.jpg",
+        "images/2.jpg",
+        "images/3.jpg",
+        "images/4.jpg",
+        "images/5.jpg",
+        "images/6.jpg",
+    ]
+
+    sounds = [
+        new Audio('sounds/0.mp3'),
+        new Audio('sounds/1.mp3'),
+        new Audio('sounds/2.mp3'),
+        new Audio('sounds/3.mp3'),
+        new Audio('sounds/4.mp3'),
+        new Audio('sounds/5.mp3'),
+    ]
+
+    photo = document.getElementById('photo');
+    
+    i = 1;
+    count = images.length;
+    document.addEventListener("keypress", (ev) => {
+        i = (i + 1) % count;
+        console.log(i, count);
+        photo.src = images[i];
+        sounds[i].play();
+    });
+</script>
