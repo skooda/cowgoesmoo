@@ -1,8 +1,59 @@
 # Cow goes moo
-A simple KaiOS/GerdaOS game created for my daughter to learn what does the animals says.
+
+A simple Nokia 8110 (KaiOS/GerdaOS) game created for my daughter to learn what does the animals says.
+
+![](readme.jpg)
 
 ## How it works
+
 Application simply cycles through animal pictures and plays the sounds of it. So children learn faster what does the animal says.
+
+
+## How to install
+
+The recommended route is using [Lux Ferre's GDeploy](https://gitlab.com/suborg/gdeploy). Check 
+
+### Prerequisities
+
+1) Install ADB
+Follow instructions here https://www.xda-developers.com/install-adb-windows-macos-linux/
+
+2) Clone and install [Lux Ferre's GDeploy](https://gitlab.com/suborg/gdeploy)
+```
+git clone https://gitlab.com/suborg/gdeploy.git
+
+npm i & npm link
+```
+
+
+### Instalation
+
+3) Clone this repository
+```
+git clone https://github.com/skooda/cowgoesmoo
+```
+
+4) Connect your phone using USB and check that is connected
+```
+adb devices
+```
+
+5) Install this app using Lux Ferre's GDeploy](https://gitlab.com/suborg/gdeploy)
+```
+gdeploy install cowgoesmoo
+```
+
+
+## Compatible phones
+
+Nokia 8110 4G
+Alcatel OT-4044
+CAT B35
+Jio Phone
+Nokia 2720
+Nokia 800
+... and any other KaiOS or GerdaOS phone
+
 
 ## Credits
 
@@ -22,3 +73,6 @@ Sounds from:
 - [orangefreesounds.com](http://www.orangefreesounds.com)
 - [soundbible.com](https://www.soundbible.com)
 - [fesliyanstudios.com](https://www.fesliyanstudios.com)
+
+Icon from:
+- [stockio.com](https://www.stockio.cz)
