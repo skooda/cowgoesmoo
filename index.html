@@ -57,9 +57,13 @@
     i = 1;
     count = images.length;
     document.addEventListener("keypress", (ev) => {
-        i = (i + 1) % count;
-        console.log(i, count);
-        photo.src = images[i];
+        x = parseInt(ev.key);
+
+        if (Number.isInteger(x)) {
+            i = x % count;
+            photo.src = images[i];
+        }
+        
         sounds[i].play();
     });
 </script>

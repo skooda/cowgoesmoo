@@ -6,7 +6,7 @@ A simple Nokia 8110 (KaiOS/GerdaOS) game created for my daughter to learn what d
 
 ## How it works
 
-Application simply cycles through animal pictures and plays the sounds of it. So children learn faster what does the animal says.
+Application simply shows animal pictures and plays the sounds of it. So children learn faster what does the animal says.
 
 
 ## How to install
