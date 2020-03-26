@@ -50,8 +50,9 @@ gdeploy install cowgoesmoo/app
 make build
 ```
 
-#### Use prebuilded
- Alternatively you can use prebuilded [application](https://github.com/skooda/cowgoesmoo/raw/master/build/app.zip) or [gerdaOS](https://github.com/skooda/cowgoesmoo/raw/master/build/package.zip) package which located [here](https://github.com/skooda/cowgoesmoo/tree/master/build)
+#### Use prebuilded
+
+Alternatively you can use prebuilded [application](https://github.com/skooda/cowgoesmoo/raw/master/build/app.zip) or [gerdaOS](https://github.com/skooda/cowgoesmoo/raw/master/build/package.zip) package which located [here](https://github.com/skooda/cowgoesmoo/tree/master/build)
 
 ## Compatible phones
 
