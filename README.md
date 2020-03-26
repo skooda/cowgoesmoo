@@ -28,6 +28,8 @@ npm i & npm link
 
 ### Instalation
 
+#### Build yourself
+
 3) Clone this repository
 ```
 git clone https://github.com/skooda/cowgoesmoo
@@ -38,11 +40,18 @@ git clone https://github.com/skooda/cowgoesmoo
 adb devices
 ```
 
-5) Install this app using Lux Ferre's GDeploy](https://gitlab.com/suborg/gdeploy)
+5a) For KaiOS install this app using Lux Ferre's GDeploy](https://gitlab.com/suborg/gdeploy)
 ```
-gdeploy install cowgoesmoo
+gdeploy install cowgoesmoo/app
 ```
 
+5b) For GerdaOs build the omniSD package first
+```
+make build
+```
+
+#### Use prebuilded
+ Alternatively you can use prebuilded [application](https://github.com/skooda/cowgoesmoo/tree/master/build/app.zip) or [gerdaOS](https://github.com/skooda/cowgoesmoo/tree/master/build/package.zip) package which located [here](https://github.com/skooda/cowgoesmoo/tree/master/build)
 
 ## Compatible phones
 

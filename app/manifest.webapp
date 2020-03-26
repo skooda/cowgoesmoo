@@ -1,6 +1,7 @@
 {
   "version": "0.0.1",
   "name": "Cow goes moo",
+  "origin": "app://cowgoesmoo.v3l.cz",
   "subtitle": "Learn childern what does the animals says.",
   "description": "Application simply cycles through animal pictures and plays the sounds of it. So children learn faster what does the animal says.",
   "type": "web",
