@@ -10,7 +10,7 @@ build/application.zip: prereq
 
 build/package.zip: build/application.zip
 	touch update.webapp
-	zip build/package.zip application.zip update.webapp metadata.json
+	zip build/package.zip build/application.zip update.webapp metadata.json
 	rm update.webapp
 
 clean:
