@@ -6,12 +6,14 @@ prereq:
 	mkdir build
 
 build/application.zip: prereq
-	zip -r build/application.zip app
+	cd app &&zip -r ../build/application.zip ./
 
 build/package.zip: build/application.zip
-	touch update.webapp
-	zip build/package.zip build/application.zip update.webapp metadata.json
-	rm update.webapp
+	touch build/update.webapp
+	cp metadata.json build
+	cd build &&zip package.zip application.zip metadata.json update.webapp
+	rm build/update.webapp
+	rm build/metadata.json
 
 clean:
 	rm -r build
